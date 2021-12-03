@@ -42,7 +42,6 @@ group :backend, :frontend, :core, :api do
   gem 'simplecov', require: false
   gem 'with_model', require: false
   gem 'rails-controller-testing', require: false
-  gem 'puma', require: false
 
   # Ensure the requirement is also updated in core/lib/spree/testing_support.rb
   gem 'factory_bot_rails', '~> 4.8', require: false
